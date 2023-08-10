@@ -1,0 +1,42 @@
+.form {
+  background: linear-gradient(90deg, #bbd2c5 0%, #536976 100%);
+}
+
+.header {
+  background: #fff;
+  box-shadow: 0px 2px 25px 0px rgba(228, 228, 228, 0.8);
+}
+
+.select {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px rgba(198, 198, 198, 0.7);
+}
+
+.loginBox {
+  border-radius: 20px;
+  border: 0.6px solid #fff;
+  background: rgba(251, 251, 251, 0.2);
+  backdrop-filter: blur(20px);
+}
+
+.submitBtn {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  span {
+    position: absolute;
+    font-size: 25px;
+    position: absolute;
+    left: 21px;
+    top: 10px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .next {
+    top: 2px;
+    left: 22px;
+    font-weight: 600;
+  }
+}
